@@ -1,1 +1,131 @@
+body {
+  font-size: 13px !important;
+  background-color: #eff6f6 !important;
+  color:#128476 !important;
+  font-family: Poppins !important;
+}
+hr{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  border:3px solid #a7c0dd !important
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%) !important;
+}
+.form-control-sm{
+  padding: 2px !important;
+}
+
+
+.form-control {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+}
+
+.form-select {
+  font-size: 14px !important;
+}
+
+th {
+  font-size: 10px !important;
+  /*  color: #fff !important;*/
+
+}
+
+.sidebar-block {
+  background-color:  #233446 !important;
+  color: aliceblue;
+  /*    height: 100vh;*/
+  border: 2px solid  #0c1e32 !important;
+}
+
+.redborder {
+  border: 1px solid red;
+}
+
+.rdobtn-inline div.form-check {
+  display: inline-block !important;
+}
+
+.short-txt .form-control {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.border-grey {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.width-10 {
+  width: 10% !important;
+}
+
+.width-45 {
+  width: 45% !important;
+}
+
+.width-20 {
+  width: 20% !important;
+}
+
+.ht-set-temp {
+  height: 8rem !important;
+}
+
+.btn {
+  font-size: inherit !important;
+}
+
+.resize-n {
+  resize: none !important;
+}
+
 /* You can add global styles to this file, and also import other style files */
+
+/* added by pranita 19.June.2023 */
+.btn-primary {
+  background-color: #128476 !important;
+}
+.sidebar, .sidebar-content , .sidebar-link, a.sidebar-link{
+  background-color: #128476 !important;
+}
+
+/* .table>:not(caption)>*>*{
+  padding: .3rem .3rem !important;
+} */
+.width-20 {
+  width: 20% !important;
+}
+
+legend {
+  font-size: 14px !important;
+  width: auto !important;
+  font-weight: 700 !important;
+  background-color: #b5dfdc !important;
+  padding: 0px 5px !important;
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+fieldset {
+  display: block !important;
+  margin-inline-start: 2px !important;
+  margin-inline-end: 2px !important;
+  padding-block-start: 0.35em !important;
+  padding-inline-start: 0.75em !important;
+  padding-inline-end: 0.75em !important;
+  padding-block-end: 0.625em !important;
+  min-inline-size: min-content !important;
+  border-width: 0.5px !important;
+  border-style: groove !important;
+  border-color: rgb(192, 192, 192) !important;
+  border-image: initial !important;
+}
