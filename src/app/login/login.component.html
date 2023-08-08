@@ -1,0 +1,68 @@
+<!-- 
+<button routerLink="/dashboard">Login</button> -->
+    
+<div class="container-xxl">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+      <div class="authentication-inner">
+        <!-- Register -->
+        <div class="card">
+          <div class="card-body">
+  
+            <!-- Logo -->
+            <div class="app-brand justify-content-center">
+              <a class="app-brand-link gap-2">
+                <span class="app-brand-logo demo">
+                  <svg width="25" height="42" version="1.1">
+                    <image xlink:href="./favicon.ico" x="0" y="0" width="25" height="42" />
+                  </svg>
+                </span>
+                <span class="app-brand-text demo text-body fw-bolder">Clinovations</span>
+              </a>
+            </div>
+            <!-- /Logo -->
+  
+  
+            <form class="mb-3"  >
+             
+                  <div class="mb-3">
+                    <label for="username" class="form-label">Mobile Number</label>
+                    <input type="number" class="form-control" #username placeholder="Enter your mobile  number" autofocus />
+                  </div>
+                  <div class="mb-3 form-password-toggle">
+                    
+                      <label class="form-label" for="password" >Password</label>
+                  
+                      <div class="input-group input-group-merge">
+                        <input type="password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                          aria-describedby="password" #password />
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                      </div>
+              
+                  </div>
+              
+              <div class="mb-3" *ngIf="this.isButtonVisible" >
+                <!--  -->
+                <button class="btn btn-primary d-grid w-100" type="button" (click)="login(username.value,password.value)">Sign In</button>
+               
+              </div>
+              <div class="mb-3" *ngIf="this.isButtonVisible">
+                <!--  -->
+               <button class="btn btn-primary d-grid w-100" type="button" (click)="this.isButtonVisible = false" >Sign Up</button>
+              
+              </div>
+
+              <div class="mb-3" *ngIf="!this.isButtonVisible">
+                <!--  -->
+               <button class="btn btn-primary d-grid w-100" type="button" (click)="signup(username.value,password.value)" >Sign Up</button>
+              
+              </div>
+            </form>
+  
+          </div>
+        </div>
+        <!-- /Register -->
+      </div>
+    </div>
+  </div>
+  
+  
